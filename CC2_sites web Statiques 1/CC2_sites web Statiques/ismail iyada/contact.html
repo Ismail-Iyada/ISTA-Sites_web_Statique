@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/Bootstrap icons/bootstrap-icons.css" />
+    <script src="css/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid bg-light">
+      <div class="container">
+        <nav class="navbar navbar-expand-sm bg-light">
+          <div class="container-fluid">
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="navbar-brand">Site Shoping</li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  >Shop</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">All Products</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Popular Items</a></li>
+                  <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="btn btn-light border border-dark border-2"
+            >
+              <span class="bi-cart-fill"></span>
+              Cart <span class="badge bg-black rounded-circle">0</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark">
+      <div class="container text-center py-5">
+        <h1 class="text-light">Shop in style</h1>
+        <p class="text-secondary">With this shop homepage template</p>
+      </div>
+    </div>
+    <div class="container-fluid bg-light">
+      <div class="container p-5">
+        <form action="#">
+          <div class="my-4">
+            <label
+              for="nom"
+              class="bi-person-fill text-dark me-2 form-label"
+            ></label
+            ><input
+              type="text"
+              name="nom"
+              id="nom"
+              placeholder="Votre nom"
+              class="form-control w-75 d-inline-block"
+            />
+          </div>
+          <div class="mb-4">
+            <label
+              for="nom"
+              class="bi-person-fill text-dark me-2 form-label"
+            ></label
+            ><input
+              type="text"
+              name="nom"
+              id="nom"
+              placeholder="Votre prenom"
+              class="form-control w-75 d-inline-block"
+            />
+          </div>
+          <div class="mb-4">
+            <span class="bi-gender-female form-label me-2"></span>
+            <input type="radio" name="sexe" id="homme" value="Homme" />
+            <label for="homme" class="form-label"> Homme </label>
+            <input type="radio" name="sexe" id="femme" value="Femme" />
+            <label for="femme" class="form-label"> Femme </label>
+          </div>
+          <div class="mb-4">
+            <label for="mail" class="bi-mailbox form-label me-2"></label>
+            <input type="email" name="mail" id="mail" class="form-control d-inline-block w-75" placeholder="Votre email"/>
+          </div>
+          <div class="mb-4">
+            <label for="pay" class="form-label me-2 bi-house-door-fill"></label>
+            <select name="pay" id="pay" class="form-control w-25 d-inline-block">
+              <option value="Maroc" selected>Maroc</option>
+              <option value="France">France</option>
+              <option value="Espagne">Espagne</option>
+              <option value="Italie">Italie</option>
+            </select>
+          </div>
+          <div class="mb-4">
+            <label for="msg" class="form-label me-2 bi-chat-square"></label>
+            <textarea name="msg" id="msg" cols="30" rows="4" class="form-control w-75 d-inline-block" placeholder="Votre message ici"></textarea>
+          </div>
+          <div class="mb-4">
+            <input type="submit" value="Envoyer" class="btn btn-light border border-2 border-dark w-25 me-3">
+            <input type="reset" value="Annuler" class="btn btn-light border border-2 border-dark w-25">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark text-center text-light p-4">
+      <div class="container">
+        <span>Copyright &copy; your website 2022</span>
+      </div>
+    </div>
+  </body>
+</html>

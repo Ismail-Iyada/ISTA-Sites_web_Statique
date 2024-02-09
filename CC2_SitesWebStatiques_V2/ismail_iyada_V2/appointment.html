@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/Bootstrap icons/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="css/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header class="container-fluid bg-light shadow">
+      <div class="container">
+        <nav class="navbar">
+          <ul class="nav">
+            <li class="navbar-brand text-primary">
+              <a href="index.html" class="nav-link">Medilab</a>
+            </li>
+          </ul>
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-dark">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link text-dark">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link text-dark">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-dark">Departments</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-dark">Doctors</a>
+            </li>
+            <li class="nav-item dropdown">
+              <span
+                href="#"
+                class="nav-link text-dark dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Drop Down</span
+              >
+              <ul class="dropdown-menu rounded-0">
+                <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                <li class="dropdown dropend subdrop">
+                  <a class="dropdown-item dropdown-toggle" href="#"
+                    >Deep Drop Down</a
+                  >
+                  <ul class="dropdown-menu submenu rounded-0">
+                    <li>
+                      <a href="#" class="dropdown-item">Deep Drop Down 1</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">Deep Drop Down 2</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">Deep Drop Down 3</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">Deep Drop Down 4</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">Deep Drop Down 5</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+                <li><a class="dropdown-item" href="#">Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-dark">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="appointment.html"
+                class="nav-link btn btn-primary text-white rounded-pill"
+                >Make an appointment</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="container-fluid bg-light">
+      <div class="container py-5 text-center">
+        <h1 class="text-secondary m-1">
+          Make an<span class="border-bottom border-2 py-3"
+            > A<span class="border-bottom border-3 border-primary pb-3">pp</span
+            >oi</span
+          >ntment
+        </h1>
+        <p class="my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          recusandae asperiores perspiciatis eos totam optio? Maiores, ullam
+          mollitia? Corporis dolore at consequuntur corrupti inventore pariatur
+          ipsa minima neque aut atque.
+        </p>
+        <form action="#" class="container mb-3">
+          <div class="row">
+            <div class="col-md-4 p-2">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+                class="form-control rounded-0"
+              />
+            </div>
+            <div class="col-md-4 p-2">
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="Your Email"
+                class="form-control rounded-0"
+              />
+            </div>
+            <div class="col-md-4 p-2">
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Your Phone"
+                class="form-control rounded-0"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 p-2">
+              <input
+                type="text"
+                name="date"
+                id="date"
+                placeholder="appointment Date"
+                class="form-control rounded-0"
+              />
+            </div>
+            <div class="col-md-4 p-2">
+              <select name="Department" id="Department" class="form-select">
+                <option value="Select Department" selected disabled>
+                  Select Department
+                </option>
+                <option value="Department1">Department 1</option>
+                <option value="Department2">Department 2</option>
+                <option value="Department3">Department 3</option>
+              </select>
+            </div>
+            <div class="col-md-4 p-2">
+              <select name="Doctor" id="doctor" class="form-select">
+                <option value="Select Doctor" disabled selected>
+                  Select Doctor
+                </option>
+                <option value="Doctor1">Doctor 1</option>
+                <option value="Doctor2">Doctor 2</option>
+                <option value="Doctor3">Doctor 3</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 p-2">
+              <textarea
+                name="msg"
+                id="msg"
+                cols="30"
+                rows="5"
+                placeholder="Message (Optional)"
+                class="form-control"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 p-2 my-3">
+              <input
+                type="submit"
+                value="Make an Appointment"
+                class="btn btn-primary rounded-pill px-5"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div class="dropdown"></div>
+  </body>
+</html>
