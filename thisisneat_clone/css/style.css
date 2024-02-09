@@ -1,0 +1,13 @@
+.submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+  .subdrop:hover .submenu {
+    display: block;
+  }
+  .tt:hover{
+    border-bottom: 2px solid blue;
+    color: blue; 
+  }
